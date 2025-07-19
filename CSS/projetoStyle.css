@@ -1,0 +1,40 @@
+#titulo{
+    padding: 20 0 0 0;
+}
+
+div.container {
+    width: 500;
+    margin: 0 auto;
+}
+
+.container form{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.container form input {
+    flex: 1;
+    border: 1px solid black;
+    height: 2rem;
+    padding: 0 0.5rem;
+}
+.container button {
+    background-color: orange;
+    border: 0;
+    width: 3rem;
+}
+
+.container ul {
+    list-style-type: none;
+    word-wrap: break-word;
+    padding: 0;
+    border: 1px solid white;
+}
+
+.container li{
+    padding: 0.5rem 1rem;
+}
+
+.container li:nth-child(odd){
+    background-color: #f6f6f6;
+}

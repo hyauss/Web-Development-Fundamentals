@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\DocumentosForaDaDuvem\tic_em_trilhas\CSS\projetoStyle.css">
+    <title>Projeto</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <center id="titulo">
+
+            <head><em>To do List</em></head>
+        </center>
+        <br>
+        <br>
+        <form id="form-add-todo">
+            <input type="text" id="task" placeholder="Nova tarefa">
+            <button onclick="add()">+</button>
+        </form>
+        <ul id="todo-list">
+            <li>
+                <input type="checkbox" onclick="done(this)">
+                <span>Task 1</span>
+            </li>
+            <li>
+                <input type="checkbox" onclick="done(this)">
+                <span>Task 2</span>
+            </li>
+            <li>
+                <input type="checkbox" onclick="done(this)">
+                <span>Task 3</span>
+            </li>
+        </ul>
+    </div>
+    <script src="C:\DocumentosForaDaDuvem\tic_em_trilhas\Js\scriptProjeto.js"></script>
+</body>
+
+</html>
